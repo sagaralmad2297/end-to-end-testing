@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35981" started-at="2023-03-07T17:07:13Z" finished-at="2023-03-07T17:07:49Z">
+    <groups>
+    </groups>
+    <test name="homepage" duration-ms="35981" started-at="2023-03-07T17:07:13Z" finished-at="2023-03-07T17:07:49Z">
+      <class name="Newmavenprj.Endtoend.Homepage">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:Newmavenprj.Endtoend.Homepage@53aad5d5]" name="intialize" is-config="true" duration-ms="1880" started-at="2023-03-07T22:37:13Z" finished-at="2023-03-07T22:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="basepageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Newmavenprj.Endtoend.Homepage@53aad5d5]" name="basepageNavigation" duration-ms="15026" started-at="2023-03-07T22:37:15Z" data-provider="getdata" finished-at="2023-03-07T22:37:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[good]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[143]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method status="PASS" signature="basepageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Newmavenprj.Endtoend.Homepage@53aad5d5]" name="basepageNavigation" duration-ms="2762" started-at="2023-03-07T22:37:30Z" data-provider="getdata" finished-at="2023-03-07T22:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sagar@almad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0202]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Newmavenprj.Endtoend.Homepage@53aad5d5]" name="teardown" is-config="true" duration-ms="16292" started-at="2023-03-07T22:37:33Z" finished-at="2023-03-07T22:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Newmavenprj.Endtoend.Homepage -->
+    </test> <!-- homepage -->
+  </suite> <!-- Suite -->
+</testng-results>

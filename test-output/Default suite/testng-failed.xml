@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none">
+    <classes>
+      <class name="Newmavenprj.Endtoend.validationtitle">
+        <methods>
+          <include name="intialize"/>
+          <include name="basepageNavigation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Newmavenprj.Endtoend.validationtitle -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

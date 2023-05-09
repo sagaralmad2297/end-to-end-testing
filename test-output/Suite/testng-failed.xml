@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="homepage(failed)" parallel="none">
+    <classes>
+      <class name="Newmavenprj.Endtoend.validationtitle">
+        <methods>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Newmavenprj.Endtoend.validationtitle -->
+      <class name="Newmavenprj.Endtoend.Homepage">
+        <methods>
+          <include name="basepageNavigation" invocation-numbers="0"/>
+          <include name="intialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Newmavenprj.Endtoend.Homepage -->
+    </classes>
+  </test> <!-- homepage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
